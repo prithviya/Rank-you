@@ -34,7 +34,7 @@ function Header() {
                     <hr></hr>
                     <Link to="/service" className='nav-link'>Our Services</Link>
                     <hr></hr>
-                    <Nav.Link href="#action2">Contact Us</Nav.Link>
+                    <Link to="/contact" className='nav-link'>Contact US</Link>
                     <hr></hr>
                     </Nav>
                 </Offcanvas.Body>

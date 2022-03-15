@@ -16,14 +16,15 @@ function About() {
             <img src={Abut} alt="about image" width="500" height="300"/>
           </div>
           <div className='col-md-6 pt-4'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p>Digital is the core of everything today. We have been in the Digital Marketing business for more than a decade and it continues. We are specialized in your digital marketing goals I.e to increase your brand awarness and to achieve more sales. Our marketing channel helps to achieve your goal and sales at the starting point. </p>
+            <p>We direct marketing which links consumers with sellers electronically using interactive technologies like emails,website,online forums,news group,interactive television etc..For the past 15 years ,smart insights has specialized in helping marketers learn more structured, strategic and data –driven approach to digital marketing.</p>
           </div>
         </div>
       </div>
       <div className="">
         <h1 className='cust-title text-center pt-5 text-uppercase underline'>What we do?</h1>
         <div class="container my-5">
+            <p>Turn your Business into a Brand. We provide a fail-safe and progressive techniques which turns your visitors into your customers. </p>
         <section class="we-offer-area text-center bg-gray">
           <div class="container">
                   <div class="row our-offer-items less-carousel">
@@ -33,7 +34,7 @@ function About() {
                           <i class="fa fa-search" aria-hidden="true"></i>
                               <h4>SEO</h4>
                               <p>
-                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                              we optimize Search engines and Amplify it across various channels to attain higher visibility and receive a steady stream of traffic. 
                               </p>
                           </div>
                       </div>
@@ -43,7 +44,7 @@ function About() {
                           <i class="fa fa-file-video-o" aria-hidden="true"></i>
                               <h4>SMO</h4>
                               <p>
-                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                              We provide a four stage process by understanding the audience through various listening tools to create customized solutions.
                               </p>
                           </div>
                       </div>
@@ -52,7 +53,7 @@ function About() {
                                 <i class="fa fa-cubes" aria-hidden="true"></i>
                               <h4>SEM</h4>
                               <p>
-                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                              We identify and capture the attention of potential customers through identifying best- suited channels and setting optimal budgets.
                               </p>
                           </div>
                       </div>                    

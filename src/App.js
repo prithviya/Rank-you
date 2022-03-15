@@ -4,7 +4,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Home from "./components/Home";
-import Service from "./components/Service"
+import Service from "./components/Service";
+import Contact from "./components/Contact";
 import "./App.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -17,6 +18,7 @@ function App() {
                 <Route path ="/" element ={<Home/>} />
                 <Route path ="/about" element ={<About/>} />
                 <Route path ="/service" element={<Service/>} />
+                <Route path ="/contact" element={<Contact/>} />
           </Routes>
           <Footer/>
       </Router>
