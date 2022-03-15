@@ -67,7 +67,7 @@ Pollachi Road,<br/> Eachanari</span>
                             </div>
                             <ul>
                                 <li><a href="#">Home</a></li><br/>
-                                <li><a href="#">About</a></li><br/>
+                                <li><a href="#">About Us</a></li><br/>
                                 <li><a href="#">Services</a></li><br/>
                                 <li><a href="#">Project</a></li><br/>
                                 <li><a href="#">Contact</a></li>                                
