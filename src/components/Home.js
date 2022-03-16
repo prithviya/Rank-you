@@ -10,7 +10,7 @@ function Home() {
         <div class="container">
           <div class="row">
             <div class="col-md-6 p-2">
-              <img src={seo} alt="gif-imag-banner" width= "450" height="400"/>
+              <img src={seo} alt="gif-imag-banner" width= "100%" height="auto"/>
             </div>
             <div class="col-md-6 pt-2">
               <div id="container">
@@ -38,12 +38,14 @@ function Home() {
                 </p>
                 <p  className='p-4 pt-0'>
                   Digital Marketing is also called as “Online Marketing”.It leads the world to the next level of marketing .We have boundless system of channels while modern marketers just onboard their brands advertising online in order to achieve the vast of Digital Marketing. </p>
-                  <button class="learn-more">
-                    <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
-                    </span>
-                    <span class="button-text">Read More</span>
-                  </button>
+                  <a href="/about">
+                    <button class="learn-more">
+                      <span class="circle" aria-hidden="true">
+                      <span class="icon arrow"></span>
+                      </span>
+                      <span class="button-text">Read More</span>
+                    </button>
+                  </a>
               </div>
             </div>
             <div className='col-md-4'>
@@ -255,6 +257,106 @@ function Home() {
               </div>
             </div>
             
+          </div>
+        </div>
+      </div>
+      {/* our team */}
+      <div>
+      <h1 className='cust-title text-center pt-5 text-uppercase underline'>Our Organization</h1>
+      <div className='container pt-4 pb-5'>
+        <div className='row'>
+          <div className='col-md-4 col-sm-12'>
+            <figure class="snip1473">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg" alt="profile-sample6" class="profile" />
+              <figcaption>
+                <blockquote>I'm looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello...? </blockquote>
+              </figcaption>
+              <h3>Hans Down<span>Engineer</span></h3>
+            </figure>
+          </div>
+          <div className='col-md-4 col-sm-12'>
+            <figure class="snip1473 hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg" alt="profile-sample7" class="profile" />
+              <figcaption>
+                <blockquote>Calvin: I'm a genius, but I'm a misunderstood genius. Hobbes: What's misunderstood about you? Calvin: Nobody thinks I'm a genius.</blockquote>
+              </figcaption>
+              <h3>Wisteria Widget<span>Photographer</span></h3>
+            </figure>
+          </div>
+          <div className='col-md-4 col-sm-12'>
+            <figure class="snip1473"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample9.jpg" alt="profile-sample9" class="profile" />
+              <figcaption>
+                <blockquote>Sorry to say but if you want to stay dad you've got to polish your image. I think the image we need to create for you is "repentant but learning".</blockquote>
+              </figcaption>
+              <h3>Desmond Eagle<span>Accountant</span></h3>
+            </figure>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col-md-4 col-sm-12'>
+            <figure class="snip1473">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg" alt="profile-sample6" class="profile" />
+              <figcaption>
+                <blockquote>I'm looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello...? </blockquote>
+              </figcaption>
+              <h3>Hans Down<span>Engineer</span></h3>
+            </figure>
+          </div>
+          <div className='col-md-4 col-sm-12'>
+            <figure class="snip1473 hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg" alt="profile-sample7" class="profile" />
+              <figcaption>
+                <blockquote>Calvin: I'm a genius, but I'm a misunderstood genius. Hobbes: What's misunderstood about you? Calvin: Nobody thinks I'm a genius.</blockquote>
+              </figcaption>
+              <h3>Wisteria Widget<span>Photographer</span></h3>
+            </figure>
+          </div>
+          <div className='col-md-4 col-sm-12'>
+            <figure class="snip1473"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample9.jpg" alt="profile-sample9" class="profile" />
+              <figcaption>
+                <blockquote>Sorry to say but if you want to stay dad you've got to polish your image. I think the image we need to create for you is "repentant but learning".</blockquote>
+              </figcaption>
+              <h3>Desmond Eagle<span>Accountant</span></h3>
+            </figure>
+          </div>
+        </div>
+      </div>
+      {/* testimonial */}
+        <div className=''>
+          <h1 className='cust-title text-center pt-5 text-uppercase underline'>testimonials</h1>  
+          <div className='container'>
+            <div className='row'>
+              <div className='col-md-4 col-sm-12'>
+              <div class="pn_testimonial_box mt-4">
+                    <p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements.
+</p>
+
+                    <div class="row pt-3">
+                        <div class="col-md-6 pn_review_profile"><img src="https://desklib.com/static/src/assets/images/v2/profile_1.svg" class="border-radius-12 float-right" alt="client image" /> <span> Charles Boyle </span> </div>
+                        <div class="col-md-6 pn_review_rating d-flex justify-content-end"> 5 &nbsp; <img class="image-radius aligncenter" src="https://desklib.com/static/src/assets/images/v2/star_rating.svg" alt="client stars image" /> </div>
+                    </div>
+                </div>
+              </div>
+              <div className='col-md-4 col-sm-12'>
+              <div class="pn_testimonial_box mt-4">
+                    <p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements.
+</p>
+                    <div class="row pt-3">
+                        <div class="col-md-6 pn_review_profile"><img src="https://desklib.com/static/src/assets/images/v2/profile_2.svg" class="border-radius-12 float-right" alt="client image" /> <span> Gina Lannety </span> </div>
+                        <div class="col-md-6 pn_review_rating d-flex justify-content-end"> 5 &nbsp; <img class="image-radius aligncenter" src="https://desklib.com/static/src/assets/images/v2/star_rating.svg" alt="client stars image" /> </div>
+                    </div>
+                </div>
+              </div>
+              <div className='col-md-4 col-sm-12'>
+              <div class="pn_testimonial_box mt-4">
+                    <p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements.
+ </p>
+                    <div class="row pt-3">
+                        <div class="col-md-6 pn_review_profile"><img src="https://desklib.com/static/src/assets/images/v2/profile_3.svg" class="border-radius-12 float-right" alt="client image" /> <span> Dug Judey </span> </div>
+                        <div class="col-md-6 pn_review_rating d-flex justify-content-end"> 5 &nbsp; <img class="image-radius aligncenter" src="https://desklib.com/static/src/assets/images/v2/star_rating.svg" alt="stars image" /> </div>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
           </div>
         </div>
       </div>

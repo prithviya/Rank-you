@@ -1,6 +1,12 @@
 import React from 'react';
 import Banner from '../image/abt.jpg';
 import Abut from '../image/about.jpg';
+import Vino from '../image/profile/vino.png';
+import Geetha from '../image/profile/geetha.png';
+import Gowtham from '../image/profile/gowtham-bala.png';
+import Saran from '../image/profile/saranya.png';
+import Raj from '../image/profile/raj.png'
+
 function About() {
   return (
     <div>
@@ -87,7 +93,7 @@ function About() {
                       <div class="card shadow-sm border-0">
                           <div class="card-body">
                               <div class="user-picture">
-                                  <img src="https://images.unsplash.com/photo-1582003457856-20898dd7e1ea?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130" class="shadow-sm rounded-circle" height="130" width="130" />
+                                  <img src={Vino} class="shadow-sm rounded-circle" height="130" width="130" />
                               </div>
                               <div class="user-content">
                                   <h5 class="text-capitalize user-name mt-3">Vinothini</h5>
@@ -103,7 +109,7 @@ function About() {
                       <div class="card shadow-sm border-0">
                           <div class="card-body">
                               <div class="user-picture">
-                                  <img src="https://images.unsplash.com/photo-1492447166138-50c3889fccb1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130" class="shadow-sm rounded-circle" height="130" width="130" />
+                                  <img src={Gowtham} class="shadow-sm rounded-circle" height="130" width="130" />
                               </div>
                               <div class="user-content">
                                   <h5 class="text-capitalize user-name mt-3">Bala Murugan</h5>
@@ -119,7 +125,7 @@ function About() {
                       <div class="card shadow-sm border-0">
                           <div class="card-body">
                               <div class="user-picture">
-                                  <img src="https://i.picsum.photos/id/836/130/130.jpg?hmac=Sot_REUw5W-XSuE6FmCjT9JenhZfiNqZYs3AQbfrZsc" class="shadow-sm rounded-circle" height="130" width="130" />
+                                  <img src={Saran} class="shadow-sm rounded-circle" height="130" width="130" />
                               </div>
                               <div class="user-content">
                                   <h5 class="text-capitalize user-name mt-3">Saranya</h5>
@@ -135,7 +141,7 @@ function About() {
                       <div class="card shadow-sm border-0">
                           <div class="card-body">
                               <div class="user-picture">
-                                  <img src="https://images.unsplash.com/photo-1495603889488-42d1d66e5523?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130" class="shadow-sm rounded-circle" height="130" width="130" />
+                                  <img src={Raj} class="shadow-sm rounded-circle" height="130" width="130" />
                               </div>
                               <div class="user-content">
                                   <h5 class="text-capitalize user-name mt-3">Raj Kumar</h5>
@@ -151,7 +157,7 @@ function About() {
                       <div class="card shadow-sm border-0">
                           <div class="card-body">
                               <div class="user-picture">
-                                  <img src="https://images.unsplash.com/photo-1582003457856-20898dd7e1ea?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130" class="shadow-sm rounded-circle" height="130" width="130" />
+                                  <img src={Geetha} class="shadow-sm rounded-circle" height="130" width="130" />
                               </div>
                               <div class="user-content">
                                   <h5 class="text-capitalize user-name">Geetha</h5>
