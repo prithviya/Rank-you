@@ -65,14 +65,13 @@ hr
   font-size: 2.6rem;
   line-height: 5.3rem;
 }
-/* section bg */
-.section-bg
-{
-  background-color: #ededed;
-}
+
 .custom-home-bg
 {
   background-image: url(../src/image/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 /* home page about us */
 
@@ -85,134 +84,68 @@ hr
   padding-right: 8px;
   margin-top: -3px;
 }
-/* home pafe service */
-
-/*card style /////////*/
-.card-wrapper {
-  --color-primary: #00768b;
-  --color-secondary: #01a188;
-  --box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.5);
-  width: 200px;
-}
-.card-header {
-  width: 90%;
-  background: #fff;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 50px 15px;
-  border-top-left-radius: 75px !important;
-  z-index: 2;
-  position: relative;
-  box-shadow: var(--box-shadow);
-}
-.card-header:after {
-  content: "";
-  position: absolute;
-  bottom: -15px;
-  right: 20%;
-  width: 30px;
-  height: 30px;
-  background: #fff;
-  box-shadow: var(--box-shadow);
-  transform: rotate(45deg);
-  z-index: 1;
-}
-
-.card-header i {
-  font-size: 40px;
-  color: var(--color-primary);
-}
-.card-header h2 {
-  text-transform: uppercase;
-  color: var(--color-primary);
-}
-.card-header h1 {
-  font-size: 18px;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--color-primary);
-}
-.card-header h2 {
-  font-size: 14px;
-  margin-top: 15px;
-}
-.card-header p {
-  font-size: 12px;
-  text-align: justify;
-  margin-top: 10px;
-}
-.card-footer {
-  width: 100%;
-  height: 250px;
-  background-image: linear-gradient(
-    to right bottom,
-    var(--color-secondary),
-    var(--color-primary)
-  );
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: start;
-  margin-top: -150px;
-  border-radius: 5px 5px 70px 0px;
-  color: #fff;
-  overflow: hidden;
-}
-.card-footer .footer-content-wrap {
-  padding: 0 30px 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-}
-.card-footer .footer-text-wrap {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.3);
-}
-.card-footer i {
-  font-size: 48px;
-  color: rgba(255, 255, 255, 0.7);
-}
-.card-footer h1 {
-  font-size: 60px;
-  line-height: 0.85;
-  font-weight: 400;
-}
-.card-footer p {
-  font-size: 12px;
-  text-transform: uppercase;
-}
-/*set card color ///////*/
-
-.card-wrapper.one {
-  --color-primary: #45b649;
-  --color-secondary: #dce35b;
-}
-.card-wrapper.two {
-  --color-primary: #fc4a1a;
-  --color-secondary: #f7b733;
-}
-.card-wrapper.three {
-  --color-primary: #7b920a;
-  --color-secondary: #add100;
-}
-.card-wrapper.four {
-  --color-primary: #000046;
-  --color-secondary: #1cb5e0;
-}
-.custom-home-servicecard1
+/* home page service */
+.custom-align-center
 {
   display: flex;
   flex-direction: row;
-  align-content: space-around;
+  align-items: center;
   justify-content: center;
-  margin-bottom: 25px;
+}
+.custom-home-servicecard {
+  width: 300px;
+  height: 270px;
+/*   margin: 40px auto; */
+  filter: drop-shadow(-2px 4px 5px rgba(20, 118, 163, 0.233));
+  cursor: pointer;
+  transition: .5s;
+}
+.custom-home-servicecard:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(-2px 4px 8px rgba(20, 118, 163, 0.233));
+}
+.card_content{
+  width: inherit;
+  height: inherit;
+  position: relative;
+  background-color: #fafafa;
+  border-radius: 150px 0;
+  z-index: 2;   
+}
+.card_layout{
+  width: inherit;
+  height: inherit;
+  background-color: #62b223;
+  position: absolute;
+  top: 0;
+  border-radius: 35% 0px;
+  z-index: 1;
+}
+.card_icon {
+  text-align: center;
+}
+.custom-home-service
+{
+  font-size: 1.7rem;
+}
+.custom-serv-subtext
+{
+  color: orangered !important;
+  padding: 2px;
+  font-size: 1.8rem !important;
+  font-weight: 800 !important;
+}
+.card_content .card_body {
+  max-width: 73%;
+  height: 125px;
+  margin: 27px auto 11px;
+  text-align: center;
+  overflow: hidden;
+  font-family: sans-serif;
+  line-height: 1.4;
 }
 /* readmore button */
-/* From cssbuttons.io */
+
 button {
   position: relative;
   display: inline-block;
@@ -1204,79 +1137,82 @@ textarea:valid+label {
 
 /* contact over */
 /* home page team */
-.snip1473 {
-  font-family: 'Roboto', Arial, sans-serif;
+figure.snip1192 {
+  font-family: 'Raleway', Arial, sans-serif;
   position: relative;
+  float: left;
   overflow: hidden;
-  margin: 10px;
-  min-width: 230px;
-  max-width: 315px;
+  margin: 10px 1%;
+  min-width: 220px;
+  /* max-width: 310px; */
   width: 100%;
-  color: #141414;
+  color: #333;
   text-align: left;
-  line-height: 1.4em;
-  background-color: #e6e6e6;
-  padding-top: 88px;
+  box-shadow: none !important;
 }
-.snip1473 * {
+figure.snip1192 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.snip1473 img {
+figure.snip1192 img {
   max-width: 100%;
-  vertical-align: top;
-  opacity: 0.85;
-}
-.snip1473 figcaption {
-  width: 100%;
-  background-color: #333;
-  padding: 25px;
-  position: relative;
-  color: #ffffff;
-}
-.snip1473 .profile {
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  display: inline-block;
   z-index: 1;
-  max-height: 88px;
-  opacity: 1;
+  position: relative;
 }
-.snip1473 h3 {
-  font-size: 1.3em;
-  margin: 25px;
-  font-weight: 300;
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: right;
-}
-.snip1473 h3 span {
+figure.snip1192 blockquote {
+  margin: 0;
   display: block;
-  font-size: 0.65em;
-  font-weight: 600;
-  color: #bdc3c7;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 30px 50px 65px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 -50px;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
-.snip1473 blockquote {
-  margin: 0 0 10px;
-  padding: 0 0 30px;
-  letter-spacing: 1px;
-  opacity: 0.8;
-  font-style: italic;
-  font-weight: 300;
-}
-.snip1473 blockquote:after {
+figure.snip1192 blockquote:before,
+figure.snip1192 blockquote:after {
   font-family: 'FontAwesome';
   content: "\201C";
   position: absolute;
-  font-size: 180px;
-  line-height: 1em;
-  color: #212121;
+  font-size: 50px;
+  opacity: 0.3;
   font-style: normal;
+}
+figure.snip1192 blockquote:before {
+  top: 35px;
+  left: 20px;
+}
+figure.snip1192 blockquote:after {
   content: "\201D";
   right: 20px;
-  bottom: -105px;
+  bottom: 35px;
 }
+figure.snip1192 .author {
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+figure.snip1192 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.snip1192 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  display: block;
+}
+
+
 /* testimonal */
 .pn_testimonial_box {
   font-weight: 300;

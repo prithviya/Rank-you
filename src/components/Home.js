@@ -10,7 +10,7 @@ function Home() {
         <div class="container">
           <div class="row">
             <div class="col-md-6 p-2">
-              <img src={seo} alt="gif-imag-banner" width= "100%" height="auto"/>
+              <img src={seo} alt="gif-imag-banner" width= "100%" height="80%"/>
             </div>
             <div class="col-md-6 pt-2">
               <div id="container">
@@ -54,269 +54,131 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='section-bg pb-5'>
-        <h1 className='cust-title text-center pt-5 text-uppercase underline'>Our SEO Services</h1>
-        <div className='container custom-body pt-4'>
+      <div className='pb-5'>
+        <h1 className='cust-title text-center pt-5 text-uppercase underline'>Project</h1>
+        <div className='container custom-body pt-5'>
           <div className='row'>
-            <div className='col-md-3 col-sm-6 custom-home-servicecard1'>
-              <div class="card-wrapper one">
-                <div class="card-header">
-                  <img src="https://img.icons8.com/external-smashingstocks-outline-color-smashing-stocks/40/000000/external-web-analysis-seo-and-marketing-smashingstocks-outline-color-smashing-stocks.png"/>
-                  <h2 class="card-header-text1">business</h2>
-                  <h1 class="card-header-text2">Web Site <br/>Analysis</h1>
-                </div>
-                <div class="card-footer">
-                  <div class="footer-content-wrap">
-                    <div class="footer-text-wrap">
-                      <h1>01</h1>
-                      <p>step</p>
-                    </div>
-                    <i class="fa fa-angle-double-right"></i>
+            <div className='col-md-4'>
+              <div class="custom-home-servicecard">
+                <div class="card_content">
+                  <div class="card_icon pt-4">
+                  <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-seo-marketing-technology-flaticons-lineal-color-flat-icons.png"/>
+                  </div>
+                  <div class="card_body">
+                    <h3 className='custom-home-service'>
+                      Search Engine Optimization 
+                    </h3>
+                    <span className='custom-serv-subtext'><i>(SEO)</i></span>
                   </div>
                 </div>
+                <div class="card_layout"></div>
               </div>
             </div>
-            <div className='col-md-3 col-sm-6 custom-home-servicecard1'>
-              <div class="card-wrapper two">
-                <div class="card-header">
-                  <img src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/40/000000/external-keyword-seo-and-media-flatart-icons-lineal-color-flatarticons.png"/>
-                  <h2 class="card-header-text1">business</h2>
-                  <h1 class="card-header-text2">Key Word Research</h1>
-                </div>
-                <div class="card-footer">
-                  <div class="footer-content-wrap">
-                    <div class="footer-text-wrap">
-                      <h1>02</h1>
-                      <p>step</p>
-                    </div>
-                    <i class="fa fa-angle-double-right"></i>
+            <div className='col-md-4'>
+              <div class="custom-home-servicecard">
+                <div class="card_content">
+                  <div class="card_icon pt-4">
+                  <img src="https://img.icons8.com/external-photo3ideastudio-lineal-color-photo3ideastudio/64/000000/external-social-media-marketing-online-business-photo3ideastudio-lineal-color-photo3ideastudio.png"/>
+                  </div>
+                  <div class="card_body">
+                    <h2 className='custom-home-service'>
+                      Social Media Marketing 
+                    </h2>
+                    <span className='custom-serv-subtext'><i>(SMM)</i></span>
                   </div>
                 </div>
+                <div class="card_layout"></div>
               </div>
             </div>
-            <div className='col-md-3 col-sm-6 custom-home-servicecard1'>
-              <div class="card-wrapper three">
-                <div class="card-header">
-                  <img src="https://img.icons8.com/external-ddara-lineal-color-ddara/40/000000/external-competitor-digital-marketing-ddara-lineal-color-ddara.png"/>
-                  <h2 class="card-header-text1">business</h2>
-                  <h1 class="card-header-text2">competitor analysis</h1>
-                </div>
-                <div class="card-footer">
-                  <div class="footer-content-wrap">
-                    <div class="footer-text-wrap">
-                      <h1>03</h1>
-                      <p>step</p>
-                    </div>
-                    <i class="fa fa-angle-double-right"></i>
+            <div className='col-md-4'>
+              <div class="custom-home-servicecard">
+                <div class="card_content">
+                  <div class="card_icon pt-4">
+                    <img src="https://img.icons8.com/external-filled-outline-wichaiwi/64/000000/external-marketing-digital-marketing-filled-outline-wichaiwi.png"/>
+                  </div>
+                  <div class="card_body">
+                    <h2 className='custom-home-service'>
+                      Search Engine Marketing 
+                    </h2>
+                    <span className='custom-serv-subtext'><i>(SEM)</i></span>
                   </div>
                 </div>
+                <div class="card_layout"></div>
               </div>
             </div>
-            <div className='col-md-3 col-sm-6 custom-home-servicecard1'>
-              <div class="card-wrapper four">
-                <div class="card-header">
-                <img src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/40/000000/external-find-on-page-data-science-smashingstocks-mixed-smashing-stocks.png"/>
-                  <h2 class="card-header-text1">business</h2>
-                  <h1 class="card-header-text2">on page Optimization</h1>
-                </div>
-                <div class="card-footer">
-                  <div class="footer-content-wrap">
-                    <div class="footer-text-wrap">
-                      <h1>04</h1>
-                      <p>step</p>
-                    </div>
-                    <i class="fa fa-angle-double-right"></i>
-                  </div>
-                </div>
-              </div>
-            </div>            
-            <div className='col-md-3 col-sm-6 custom-home-servicecard1'>
-              <div class="card-wrapper three">
-                <div class="card-header">
-                  <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/40/000000/external-blog-graphic-design-justicon-lineal-color-justicon.png"/>
-                  <h2 class="card-header-text1">business</h2>
-                  <h1 class="card-header-text2">Blog <br/>Submission</h1>
-                </div>
-                <div class="card-footer">
-                  <div class="footer-content-wrap">
-                    <div class="footer-text-wrap">
-                      <h1>05</h1>
-                      <p>step</p>
-                    </div>
-                    <i class="fa fa-angle-double-right"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className='col-md-3 col-sm-6 custom-home-servicecard1'>
-              <div class="card-wrapper four">
-                <div class="card-header">
-                  <img src="https://img.icons8.com/doodle/40/000000/book-shelf--v1.png"/>
-                  <h2 class="card-header-text1">business</h2>
-                  <h1 class="card-header-text2">social book marketing</h1>
-                </div>
-                <div class="card-footer">
-                  <div class="footer-content-wrap">
-                    <div class="footer-text-wrap">
-                      <h1>06</h1>
-                      <p>step</p>
-                    </div>
-                    <i class="fa fa-angle-double-right"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className='col-md-3 col-sm-6 custom-home-servicecard1'>
-              <div class="card-wrapper two">
-                <div class="card-header">
-                <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/40/000000/external-press-release-public-relations-agency-flaticons-lineal-color-flat-icons.png"/>
-                  <h2 class="card-header-text1">business</h2>
-                  <h1 class="card-header-text2">Press<br/> Releases</h1>
-                </div>
-                <div class="card-footer">
-                  <div class="footer-content-wrap">
-                    <div class="footer-text-wrap">
-                      <h1>07</h1>
-                      <p>step</p>
-                    </div>
-                    <i class="fa fa-angle-double-right"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className='col-md-3 col-sm-6 custom-home-servicecard1'>
-              <div class="card-wrapper one">
-                <div class="card-header">
-                  <img src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/40/000000/external-article-copywriting-itim2101-lineal-color-itim2101.png"/>
-                  <h2 class="card-header-text1">business</h2>
-                  <h1 class="card-header-text2">Article <br/>Submission</h1>
-                </div>
-                <div class="card-footer">
-                  <div class="footer-content-wrap">
-                    <div class="footer-text-wrap">
-                      <h1>08</h1>
-                      <p>step</p>
-                    </div>
-                    <i class="fa fa-angle-double-right"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className='col-md-4 col-sm-6 custom-home-servicecard1'>
-              <div class="card-wrapper two">
-                <div class="card-header">
-                  <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/40/000000/external-directory-gdpr-icons-flaticons-lineal-color-flat-icons.png"/>
-                  <h2 class="card-header-text1">business</h2>
-                  <h1 class="card-header-text2">Directory<br/>Submission</h1>
-                </div>
-                <div class="card-footer">
-                  <div class="footer-content-wrap">
-                    <div class="footer-text-wrap">
-                      <h1>09</h1>
-                      <p>step</p>
-                    </div>
-                    <i class="fa fa-angle-double-right"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className='col-md-4 col-sm-6 custom-home-servicecard1'>
-              <div class="card-wrapper one">
-                <div class="card-header">
-                  <img src="https://img.icons8.com/external-nawicon-outline-color-nawicon/40/000000/external-backlink-seo-and-marketing-nawicon-outline-color-nawicon.png"/>
-                  <h2 class="card-header-text1">business</h2>
-                  <h1 class="card-header-text2">BackLink<br/>building</h1>
-                </div>
-                <div class="card-footer">
-                  <div class="footer-content-wrap">
-                    <div class="footer-text-wrap">
-                      <h1>10</h1>
-                      <p>step</p>
-                    </div>
-                    <i class="fa fa-angle-double-right"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className='col-md-4 col-sm-6 custom-home-servicecard1'>
-              <div class="card-wrapper three">
-                <div class="card-header">
-                <img src="https://img.icons8.com/external-konkapp-outline-color-konkapp/40/000000/external-report-marketing-and-growth-konkapp-outline-color-konkapp.png"/>
-                  <h2 class="card-header-text1">business</h2>
-                  <h1 class="card-header-text2">Ranking <br/>Report</h1>
-                </div>
-                <div class="card-footer">
-                  <div class="footer-content-wrap">
-                    <div class="footer-text-wrap">
-                      <h1>11</h1>
-                      <p>step</p>
-                    </div>
-                    <i class="fa fa-angle-double-right"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
           </div>
+            <div className='custom-align-center pt-5'>
+              <a href="/service">
+                <button class="learn-more">
+                  <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                  </span>
+                  <span class="button-text">Read More</span>
+                </button>
+              </a>
+            </div>  
         </div>
       </div>
       {/* our team */}
       <div>
-      <h1 className='cust-title text-center pt-5 text-uppercase underline'>Our Organization</h1>
+      <h1 className='cust-title text-center pt-5 text-uppercase underline'>Our contingent</h1>
       <div className='container pt-4 pb-5'>
         <div className='row'>
-          <div className='col-md-4 col-sm-12'>
-            <figure class="snip1473">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg" alt="profile-sample6" class="profile" />
-              <figcaption>
-                <blockquote>I'm looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello...? </blockquote>
-              </figcaption>
-              <h3>Hans Down<span>Engineer</span></h3>
+          <div className='col-md-4'>
+            <figure class="snip1192">
+              <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+              <div class="author">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                <h5>Pelican Steve <span> LittleSnippets</span></h5>
+              </div>
             </figure>
           </div>
-          <div className='col-md-4 col-sm-12'>
-            <figure class="snip1473 hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg" alt="profile-sample7" class="profile" />
-              <figcaption>
-                <blockquote>Calvin: I'm a genius, but I'm a misunderstood genius. Hobbes: What's misunderstood about you? Calvin: Nobody thinks I'm a genius.</blockquote>
-              </figcaption>
-              <h3>Wisteria Widget<span>Photographer</span></h3>
+          <div className='col-md-4'>
+            <figure class="snip1192">
+              <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+              <div class="author">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                <h5>Pelican Steve <span> LittleSnippets</span></h5>
+              </div>
             </figure>
           </div>
-          <div className='col-md-4 col-sm-12'>
-            <figure class="snip1473"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample9.jpg" alt="profile-sample9" class="profile" />
-              <figcaption>
-                <blockquote>Sorry to say but if you want to stay dad you've got to polish your image. I think the image we need to create for you is "repentant but learning".</blockquote>
-              </figcaption>
-              <h3>Desmond Eagle<span>Accountant</span></h3>
+          <div className='col-md-4'>
+            <figure class="snip1192">
+              <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+              <div class="author">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                <h5>Pelican Steve <span> LittleSnippets</span></h5>
+              </div>
             </figure>
           </div>
-        </div>
-        <div className='row'>
-          <div className='col-md-4 col-sm-12'>
-            <figure class="snip1473">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg" alt="profile-sample6" class="profile" />
-              <figcaption>
-                <blockquote>I'm looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello...? </blockquote>
-              </figcaption>
-              <h3>Hans Down<span>Engineer</span></h3>
+          <div className='col-md-4'>
+            <figure class="snip1192">
+              <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+              <div class="author">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                <h5>Pelican Steve <span> LittleSnippets</span></h5>
+              </div>
             </figure>
           </div>
-          <div className='col-md-4 col-sm-12'>
-            <figure class="snip1473 hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg" alt="profile-sample7" class="profile" />
-              <figcaption>
-                <blockquote>Calvin: I'm a genius, but I'm a misunderstood genius. Hobbes: What's misunderstood about you? Calvin: Nobody thinks I'm a genius.</blockquote>
-              </figcaption>
-              <h3>Wisteria Widget<span>Photographer</span></h3>
+          <div className='col-md-4'>
+            <figure class="snip1192">
+              <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+              <div class="author">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                <h5>Pelican Steve <span> LittleSnippets</span></h5>
+              </div>
             </figure>
           </div>
-          <div className='col-md-4 col-sm-12'>
-            <figure class="snip1473"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample9.jpg" alt="profile-sample9" class="profile" />
-              <figcaption>
-                <blockquote>Sorry to say but if you want to stay dad you've got to polish your image. I think the image we need to create for you is "repentant but learning".</blockquote>
-              </figcaption>
-              <h3>Desmond Eagle<span>Accountant</span></h3>
+          <div className='col-md-4'>
+            <figure class="snip1192">
+              <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+              <div class="author">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                <h5>Pelican Steve <span> LittleSnippets</span></h5>
+              </div>
             </figure>
           </div>
+
         </div>
       </div>
       {/* testimonial */}
