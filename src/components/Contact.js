@@ -12,7 +12,7 @@ function Contact() {
             <div class="contact-box">
                 <div class="contact-links">
                 <h2 className='custom-contact-title'>Get In Touch</h2>
-                <p className='text-center custom-color-white'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo</p>
+                <p className='text-center custom-color-white'>We are here to help!</p>
                 <div class="links">
                     <div class="link">
                       <a href="https://twitter.com/Ranku_higher" target="_blank">

@@ -2,6 +2,13 @@ import React from 'react';
 import seo from "../image/seo.gif";
 import Typical from 'react-typical';
 import Abt from '../image/home-abt.png';
+import Geetha from '../image/profile/geetha.png'
+import 'react-carousel-responsive/dist/styles.css';
+import Vino from '../image/profile/vino.png';
+import Mehala from '../image/profile/meghala.png';
+import Gowtham from '../image/profile/gowtham-bala.png';
+import Saran from '../image/profile/saranya.png';
+import Raj from '../image/profile/raj.png';
 
 function Home() {
   return (
@@ -10,17 +17,18 @@ function Home() {
         <div class="container">
           <div class="row">
             <div class="col-md-6 p-2">
-              <img src={seo} alt="gif-imag-banner" width= "100%" height="80%"/>
+              <img src={seo} alt="gif-imag-banner" width= "100%" height="100%"/>
             </div>
             <div class="col-md-6 pt-2">
               <div id="container">
                 <h3 className='custom-typical-section'>
                   We are Providing Huge Services in
-                <Typical
+                  <span id="custom-type-color"><Typical
                     steps={['Search Engine Optimization', 500, 'Social Media Marketing', 800, 'Search Engine Marketing', 1500, 'Digital Marketing', 2300,]}
                     loop={Infinity}
                     wrapper="p"
-                  /> our company
+                  /></span>               
+                 Our Company
                 </h3> 
               </div>
             </div>
@@ -121,66 +129,106 @@ function Home() {
       </div>
       {/* our team */}
       <div>
-      <h1 className='cust-title text-center pt-5 text-uppercase underline'>Our contingent</h1>
-      <div className='container pt-4 pb-5'>
-        <div className='row'>
-          <div className='col-md-4'>
-            <figure class="snip1192">
-              <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
-              <div class="author">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
-                <h5>Pelican Steve <span> LittleSnippets</span></h5>
+      <h1 className='cust-title text-center pt-5 text-uppercase underline'>Our Strength</h1>
+      <section id="cards">
+          <div class="container py-2">
+              <div class="row">
+                  <div class="col-lg-4 col-md-6 mb-4 pt-5">
+                      <div class="card shadow-sm border-0">
+                          <div class="card-body">
+                              <div class="user-picture">
+                                  <img src={ Mehala } class="shadow-sm rounded-circle" height="130" width="130" />
+                              </div>
+                              <div class="user-content">
+                                  <h5 class="text-capitalize user-name mt-3">Mehala</h5>
+                                  <p class=" text-capitalize text-muted small mt-2 blockquote-footer">DM Manager</p>
+                                  
+                                  <p class="small text-muted mt-3">Leads a team that oversees a variety of digital marketing programs.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4 pt-5">
+                      <div class="card shadow-sm border-0">
+                          <div class="card-body">
+                              <div class="user-picture">
+                                  <img src={Vino} class="shadow-sm rounded-circle" height="130" width="130" />
+                              </div>
+                              <div class="user-content">
+                                  <h5 class="text-capitalize user-name mt-3">Vinothini</h5>
+                                  <p class=" text-capitalize text-muted small mt-2 blockquote-footer">DM Specialist</p>
+                                  
+                                  <p class="small text-muted mt-3">She who delivers marketing campaigns to assist the company's expansion and growth.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4 pt-5">
+                      <div class="card shadow-sm border-0">
+                          <div class="card-body">
+                              <div class="user-picture">
+                                  <img src={Gowtham} class="shadow-sm rounded-circle" height="130" width="130" />
+                              </div>
+                              <div class="user-content">
+                                  <h5 class="text-capitalize user-name mt-3">Bala Murugan</h5>
+                                  <p class=" text-capitalize text-muted small mt-2 blockquote-footer">SEO Analyst</p>
+                                  
+                                  <p class="small text-muted mt-3"> A Guy who oversees the Search Engine Optimization <i>(SEO)</i> activities.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4 pt-5">
+                      <div class="card shadow-sm border-0">
+                          <div class="card-body">
+                              <div class="user-picture">
+                                  <img src={Saran} class="shadow-sm rounded-circle" height="130" width="130" />
+                              </div>
+                              <div class="user-content">
+                                  <h5 class="text-capitalize user-name mt-3">Saranya</h5>
+                                  <p class=" text-capitalize text-muted small mt-2 blockquote-footer">DM Trainee</p>
+                                  
+                                  <p class="small text-muted mt-3">Maintains our social media presence and Collaborates with internal teams.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4 pt-5">
+                      <div class="card shadow-sm border-0">
+                          <div class="card-body">
+                              <div class="user-picture">
+                                  <img src={Raj} class="shadow-sm rounded-circle" height="130" width="130" />
+                              </div>
+                              <div class="user-content">
+                                  <h5 class="text-capitalize user-name mt-3">Raj Kumar</h5>
+                                  <p class=" text-capitalize text-muted small mt-2 blockquote-footer">Sr Web Developer</p>
+                                  
+                                  <p class="small text-muted mt-3">Prioritizing software development projects, setting timelines and assigning tasks to team members.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4 pt-5">
+                      <div class="card shadow-sm border-0">
+                          <div class="card-body">
+                              <div class="user-picture">
+                                  <img src={Geetha} class="shadow-sm rounded-circle" height="130" width="130" />
+                              </div>
+                              <div class="user-content">
+                                  <h5 class="text-capitalize user-name mt-3">Geetha</h5>
+                                  <p class=" text-capitalize text-muted small mt-2 blockquote-footer">Jr Web Developer</p>
+                                  
+                                  <p class="small text-muted mt-3">Creation of websites and updating existing web applications using scripting languages.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </figure>
           </div>
-          <div className='col-md-4'>
-            <figure class="snip1192">
-              <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
-              <div class="author">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
-                <h5>Pelican Steve <span> LittleSnippets</span></h5>
-              </div>
-            </figure>
-          </div>
-          <div className='col-md-4'>
-            <figure class="snip1192">
-              <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
-              <div class="author">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
-                <h5>Pelican Steve <span> LittleSnippets</span></h5>
-              </div>
-            </figure>
-          </div>
-          <div className='col-md-4'>
-            <figure class="snip1192">
-              <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
-              <div class="author">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
-                <h5>Pelican Steve <span> LittleSnippets</span></h5>
-              </div>
-            </figure>
-          </div>
-          <div className='col-md-4'>
-            <figure class="snip1192">
-              <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
-              <div class="author">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
-                <h5>Pelican Steve <span> LittleSnippets</span></h5>
-              </div>
-            </figure>
-          </div>
-          <div className='col-md-4'>
-            <figure class="snip1192">
-              <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
-              <div class="author">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
-                <h5>Pelican Steve <span> LittleSnippets</span></h5>
-              </div>
-            </figure>
-          </div>
-
-        </div>
+      </section>
       </div>
+      <div>
+      
       {/* testimonial */}
         <div className=''>
           <h1 className='cust-title text-center pt-5 text-uppercase underline'>testimonials</h1>  
@@ -188,7 +236,7 @@ function Home() {
             <div className='row'>
               <div className='col-md-4 col-sm-12'>
               <div class="pn_testimonial_box mt-4">
-                    <p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements.
+                    <p class="text-justify"> It felt like having an experienced team on our side which  helped us develop our idea and our first investment .
 </p>
 
                     <div class="row pt-3">
@@ -199,7 +247,7 @@ function Home() {
               </div>
               <div className='col-md-4 col-sm-12'>
               <div class="pn_testimonial_box mt-4">
-                    <p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements.
+                    <p class="text-justify">We developed a great partnership with rankuhigher and their dedication to our websites evident  in all aspects of our site. 
 </p>
                     <div class="row pt-3">
                         <div class="col-md-6 pn_review_profile"><img src="https://desklib.com/static/src/assets/images/v2/profile_2.svg" class="border-radius-12 float-right" alt="client image" /> <span> Gina Lannety </span> </div>
@@ -209,7 +257,7 @@ function Home() {
               </div>
               <div className='col-md-4 col-sm-12'>
               <div class="pn_testimonial_box mt-4">
-                    <p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements.
+                    <p class="text-justify">Thanks to upflow, we are able to gain real- time visibility into our customer debt and follow up on unpaid invoices if necessary.
  </p>
                     <div class="row pt-3">
                         <div class="col-md-6 pn_review_profile"><img src="https://desklib.com/static/src/assets/images/v2/profile_3.svg" class="border-radius-12 float-right" alt="client image" /> <span> Dug Judey </span> </div>

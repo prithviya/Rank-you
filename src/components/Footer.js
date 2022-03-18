@@ -48,8 +48,7 @@ Pollachi Road,<br/> Eachanari</span>
                                 </a>
                             </div>
                             <div class="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
+                                <p>Rank you higher is a branding company that focuses on your products and services to the digital market space. We are passionate in sculpting your brand’s digital journey.</p>
                             </div>
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
@@ -63,30 +62,28 @@ Pollachi Road,<br/> Eachanari</span>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Useful Links</h3>
+                                <h3>Quick Links</h3>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li><br/>
-                                <li><a href="#">About Us</a></li><br/>
-                                <li><a href="#">Services</a></li><br/>
-                                <li><a href="#">Project</a></li><br/>
-                                <li><a href="#">Contact</a></li>                                
+                                <li><a href="/">Home</a></li><br/>
+                                <li><a href="/about">About Us</a></li><br/>
+                                <li><a href="/service">Services</a></li><br/>
+                                <li><a href="/project">Project</a></li><br/>
+                                <li><a href="/contact">Contact</a></li>                                
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Subscribe</h3>
+                                <h3>Useful Link</h3>
                             </div>
                             <div class="footer-text mb-25">
-                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
-                            </div>
-                            <div class="subscribe-form">
-                                {/* <form action="#">
-                                    <input type="text" placeholder="Email Address">
-                                    <button><i class="fab fa-telegram-plane"></i></button>
-                                </form> */}
+                            <ul>
+                                <li><a href="/">Policy</a></li><br/>
+                                <li><a href="/about">Term</a></li><br/>  
+                                <li><a>Guidelines</a></li>                              
+                            </ul>
                             </div>
                         </div>
                     </div>

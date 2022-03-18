@@ -1,11 +1,7 @@
 import React from 'react';
 import Banner from '../image/abt.jpg';
 import Abut from '../image/about.jpg';
-import Vino from '../image/profile/vino.png';
-import Geetha from '../image/profile/geetha.png';
-import Gowtham from '../image/profile/gowtham-bala.png';
-import Saran from '../image/profile/saranya.png';
-import Raj from '../image/profile/raj.png'
+
 
 function About() {
   return (
@@ -30,148 +26,104 @@ function About() {
       <div className="">
         <h1 className='cust-title text-center pt-5 text-uppercase underline'>What we do?</h1>
         <div class="container my-5">
-            <p>Turn your Business into a Brand. We provide a fail-safe and progressive techniques which turns your visitors into your customers. </p>
+            <p className='text-center pb-3'>Turn your Business into a Brand. We provide a fail-safe and progressive techniques<br></br> which turns your visitors into your customers. </p>
         <section class="we-offer-area text-center bg-gray">
           <div class="container">
-                  <div class="row our-offer-items less-carousel">
-                      
-                      <div class="col-md-4 col-sm-6 equal-height">
-                          <div class="item">
-                          <i class="fa fa-search" aria-hidden="true"></i>
-                              <h4>SEO</h4>
-                              <p>
-                              we optimize Search engines and Amplify it across various channels to attain higher visibility and receive a steady stream of traffic. 
-                              </p>
-                          </div>
-                      </div>
+                <div class="row our-offer-items less-carousel">
                     
-                      <div class="col-md-4 col-sm-6 equal-height">
-                          <div class="item">
-                          <i class="fa fa-file-video-o" aria-hidden="true"></i>
-                              <h4>SMO</h4>
-                              <p>
-                              We provide a four stage process by understanding the audience through various listening tools to create customized solutions.
-                              </p>
-                          </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 equal-height">
-                          <div class="item">
-                                <i class="fa fa-cubes" aria-hidden="true"></i>
-                              <h4>SEM</h4>
-                              <p>
-                              We identify and capture the attention of potential customers through identifying best- suited channels and setting optimal budgets.
-                              </p>
-                          </div>
-                      </div>                    
-                  </div>
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                            <h4>SEO</h4>
+                            <p>
+                            we optimize Search engines and Amplify it across various channels to attain higher visibility and receive a steady stream of traffic. 
+                            </p>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                        <i class="fa fa-file-video-o" aria-hidden="true"></i>
+                            <h4>SMO</h4>
+                            <p>
+                            We provide a four stage process by understanding the audience through various listening tools to create customized solutions.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fa fa-cubes" aria-hidden="true"></i>
+                            <h4>SEM</h4>
+                            <p>
+                            We identify and capture the attention of potential customers through identifying best- suited channels and setting optimal budgets.
+                            </p>
+                        </div>
+                    </div>                    
+                </div>
           </div>
-      </section>
+        </section>
         </div>
       </div>
       <div>
-      <h1 className='cust-title text-center pt-5 text-uppercase underline'>Our Strength</h1>
-      <section id="cards">
-          <div class="container py-2">
-              <div class="row">
-                  <div class="col-lg-4 col-md-6 mb-4 pt-5">
-                      <div class="card shadow-sm border-0">
-                          <div class="card-body">
-                              <div class="user-picture">
-                                  <img src="https://images.unsplash.com/photo-1495603889488-42d1d66e5523?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130" class="shadow-sm rounded-circle" height="130" width="130" />
-                              </div>
-                              <div class="user-content">
-                                  <h5 class="text-capitalize user-name mt-3">Mehala</h5>
-                                  <p class=" text-capitalize text-muted small mt-2 blockquote-footer">DM Manager</p>
-                                  
-                                  <p class="small text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nemo harum repellendus aut itaque. Temporibus quaerat dolores ut, cupiditate molestiae commodi! Distinctio praesentium, debitis aut minima doloribus earum
-                                      quia commodi.</p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 mb-4 pt-5">
-                      <div class="card shadow-sm border-0">
-                          <div class="card-body">
-                              <div class="user-picture">
-                                  <img src={Vino} class="shadow-sm rounded-circle" height="130" width="130" />
-                              </div>
-                              <div class="user-content">
-                                  <h5 class="text-capitalize user-name mt-3">Vinothini</h5>
-                                  <p class=" text-capitalize text-muted small mt-2 blockquote-footer">DM Specialist</p>
-                                  
-                                  <p class="small text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nemo harum repellendus aut itaque. Temporibus quaerat dolores ut, cupiditate molestiae commodi! Distinctio praesentium, debitis aut minima doloribus earum
-                                      quia commodi.</p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 mb-4 pt-5">
-                      <div class="card shadow-sm border-0">
-                          <div class="card-body">
-                              <div class="user-picture">
-                                  <img src={Gowtham} class="shadow-sm rounded-circle" height="130" width="130" />
-                              </div>
-                              <div class="user-content">
-                                  <h5 class="text-capitalize user-name mt-3">Bala Murugan</h5>
-                                  <p class=" text-capitalize text-muted small mt-2 blockquote-footer">SEO Analyst</p>
-                                  
-                                  <p class="small text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nemo harum repellendus aut itaque. Temporibus quaerat dolores ut, cupiditate molestiae commodi! Distinctio praesentium, debitis aut minima doloribus earum
-                                      quia commodi.</p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 mb-4 pt-5">
-                      <div class="card shadow-sm border-0">
-                          <div class="card-body">
-                              <div class="user-picture">
-                                  <img src={Saran} class="shadow-sm rounded-circle" height="130" width="130" />
-                              </div>
-                              <div class="user-content">
-                                  <h5 class="text-capitalize user-name mt-3">Saranya</h5>
-                                  <p class=" text-capitalize text-muted small mt-2 blockquote-footer">DM Trainee</p>
-                                  
-                                  <p class="small text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nemo harum repellendus aut itaque. Temporibus quaerat dolores ut, cupiditate molestiae commodi! Distinctio praesentium, debitis aut minima doloribus earum
-                                      quia commodi.</p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 mb-4 pt-5">
-                      <div class="card shadow-sm border-0">
-                          <div class="card-body">
-                              <div class="user-picture">
-                                  <img src={Raj} class="shadow-sm rounded-circle" height="130" width="130" />
-                              </div>
-                              <div class="user-content">
-                                  <h5 class="text-capitalize user-name mt-3">Raj Kumar</h5>
-                                  <p class=" text-capitalize text-muted small mt-2 blockquote-footer">Sr Web Developer</p>
-                                  
-                                  <p class="small text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nemo harum repellendus aut itaque. Temporibus quaerat dolores ut, cupiditate molestiae commodi! Distinctio praesentium, debitis aut minima doloribus earum
-                                      quia commodi.</p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 mb-4 pt-5">
-                      <div class="card shadow-sm border-0">
-                          <div class="card-body">
-                              <div class="user-picture">
-                                  <img src={Geetha} class="shadow-sm rounded-circle" height="130" width="130" />
-                              </div>
-                              <div class="user-content">
-                                  <h5 class="text-capitalize user-name">Geetha</h5>
-                                  <p class=" text-capitalize text-muted small blockquote-footer mt-2">Jr Web developer</p>
-                                  
-                                  <p class="small text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nemo harum repellendus aut itaque. Temporibus quaerat dolores ut, cupiditate molestiae commodi! Distinctio praesentium, debitis aut minima doloribus earum
-                                      quia commodi.</p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+        <h1 className='cust-title text-center pt-5 text-uppercase underline'>Our Team</h1> 
+        <div className='container pt-5'>
+            <div className='row'>
+                <div className='col-md-4'>
+                    <figure class="snip1192">
+                        <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+                        <div class="author">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                            <h5>Pelican Steve <span> LittleSnippets</span></h5>
+                        </div>
+                    </figure>
+                </div>
+                <div className='col-md-4'>
+                    <figure class="snip1192">
+                        <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+                        <div class="author">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                            <h5>Pelican Steve <span> LittleSnippets</span></h5>
+                        </div>
+                    </figure>
+                </div>
+                <div className='col-md-4'>
+                    <figure class="snip1192">
+                        <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+                        <div class="author">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                            <h5>Pelican Steve <span> LittleSnippets</span></h5>
+                        </div>
+                    </figure>
+                </div>
+                <div className='col-md-4'>
+                    <figure class="snip1192">
+                        <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+                        <div class="author">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                            <h5>Pelican Steve <span> LittleSnippets</span></h5>
+                        </div>
+                    </figure>
+                </div>
+                <div className='col-md-4'>
+                    <figure class="snip1192">
+                        <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+                        <div class="author">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                            <h5>Pelican Steve <span> LittleSnippets</span></h5>
+                        </div>
+                    </figure>
+                </div>
+                <div className='col-md-4'>
+                    <figure class="snip1192">
+                        <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+                        <div class="author">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                            <h5>Pelican Steve <span> LittleSnippets</span></h5>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
       </div>
     </div>  
   )

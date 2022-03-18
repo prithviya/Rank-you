@@ -73,7 +73,7 @@ function Service() {
                 <figure class="snip1401 hover"><img src={Work} alt="sample93" />
                   <figcaption>
                     <h3>Idenfity Customer</h3>
-                    <p> We are try to understand their needs to know their details such as their lifestyle, occupation and interests.</p>
+                    <p>We try to understand their needs to know their details such as their lifestyle, occupation, background and interests.</p>
                   </figcaption><i class="fa fa-info-circle" aria-hidden="true"></i>
                   <a href="#"></a>
                 </figure>
@@ -136,7 +136,7 @@ function Service() {
                 <figure class="snip1401 hover"><img src={Work} alt="sample93" />
                   <figcaption>
                     <h3>Measure Result</h3>
-                    <p>Set goals for our employees, measure  the results on a regular basis helps motivate workers who are doing well or struggling. </p>
+                    <p>Set goals for our employees, measure the results  and motivate workers who are doing well or struggling.</p>
                   </figcaption><i class="fa fa-file-text-o" aria-hidden="true"></i>
                   <a href="#"></a>
                 </figure>
