@@ -1,6 +1,8 @@
 import React from 'react';
 import Banner from '../image/abt.jpg';
 import Abut from '../image/about.jpg';
+import Anand from '../image/profile/anand.png';
+import Sakthi from '../image/profile/sakthi.png';
 
 
 function About() {
@@ -72,7 +74,7 @@ function About() {
                     <figure class="snip1192">
                         <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
                         <div class="author">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                            <img src={ Anand } alt="sq-sample1"/>
                             <h5>Pelican Steve <span> LittleSnippets</span></h5>
                         </div>
                     </figure>
@@ -81,7 +83,7 @@ function About() {
                     <figure class="snip1192">
                         <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
                         <div class="author">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1"/>
+                            <img src={ Sakthi } alt="sq-sample1"/>
                             <h5>Pelican Steve <span> LittleSnippets</span></h5>
                         </div>
                     </figure>
