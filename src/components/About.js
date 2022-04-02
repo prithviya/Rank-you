@@ -84,7 +84,10 @@ function About() {
                 </div>
                 <div className='col-md-4'>
                     <figure class="snip1192">
-                        <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
+                        <blockquote>
+                        <h5 class="text-capitalize user-name mt-3">Dani</h5>
+                        <p class=" text-capitalize text-muted small mt-2 blockquote-footer">Graphic Designer</p>                                  
+                            Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. </blockquote>
                         <div class="author">
                             <img src={ Sakthi } alt="sq-sample1"/>
                             <h5>Pelican Steve <span> LittleSnippets</span></h5>
